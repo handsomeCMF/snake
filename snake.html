@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="main.css">
+    <style type="text/css">
+
+    </style>
+</head>
+<body>
+	<h1 >贪吃蛇</h1>
+	<div class="body">
+		<div id="gameArea">
+			<h1 id="score">分数：0</h1>
+			<canvas id="gamebody">
+				
+			</canvas>
+		</div>
+
+		<div id="settingArea">
+			<div class="setting">
+				<label>困难程度:</label>
+				<select id="setting" name="setting" onchange="setLevel()">
+				<option value="9">级别1</option>
+				<option value="8">级别2</option>
+				<option value="7">级别3</option>
+				<option value="6">级别4</option>
+				<option value="5">级别5</option>
+				<option value="4">级别6</option>
+				<option value="3">级别7</option>
+				<option value="2">级别8</option>
+				<option value="1">级别9</option>
+				</select>
+			</div>
+			<input id="pause" type="button" onclick="pause(this);" data-state="0" name="pause" value="暂停"/>
+			<input type="button" onclick="restart();" name="restart" value="重新开始"/>
+			
+		</div>
+	</div>
+	<script type="text/javascript" src="snake.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>

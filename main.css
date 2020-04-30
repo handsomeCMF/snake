@@ -1,0 +1,44 @@
+h1{
+	text-align:center;
+}
+#gameArea{
+	margin: 0 100px;
+	width:1000px;
+	height:700px;
+	border:2px solid gray;
+	box-shadow: inset 5px 5px 10px  gray ,inset -5px -5px 10px  gray ;
+}
+#settingArea{
+	text-align:center;
+	border:1px solid blue;
+	width:300px;
+	height:300px;
+}
+.body{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;/*主轴线上的对齐方式*/
+	align-items:center;
+}
+#gamebody{
+	border: 1px dotted black;
+	width:900px;
+	margin: 50px;
+}
+#settingArea input{
+	margin: 10px;
+	padding:20px;
+	font-size: 20px;
+}
+#settingArea select{
+	margin: 10px;
+	padding:10px;
+	font-size: 20px;
+}
+.setting{
+	text-align:center;
+}
+
+#score{
+	font-size: 40px;
+}
